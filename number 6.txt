@@ -1,0 +1,28 @@
+Module Module1
+
+    Sub Main()
+
+        Dim dn As Integer
+        Dim str1 As String
+        Dim str2 As String
+
+        str1 = ""
+        str2 = ""
+        dn = 0
+
+        Console.Write("Donuts: ")
+        dn = Console.ReadLine
+
+        If dn < 10 Then
+            str1 = dn
+        Else
+            str1 = "many"
+        End If
+
+        Console.WriteLine("Number of donuts: " & str1)
+        Console.ReadKey()
+
+
+    End Sub
+
+End Module

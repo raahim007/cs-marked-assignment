@@ -1,0 +1,39 @@
+Module Module1
+
+    Sub Main()
+        Dim str1, str2 As String
+        Dim char1, char2, char3, char4 As Char
+        Dim i As Integer
+
+        str1 = " "
+        str2 = " "
+        char1 = " "
+        char2 = " "
+        char3 = " "
+        char4 = " "
+        i = 0
+
+        Console.Write("please input a string which has > 2 words: ")
+        str1 = Console.ReadLine
+
+        If Len(str1) > 2 Then
+            char1 = Mid(str1, 1, 1)
+            char2 = Mid(str1, 2, 1)
+
+            char3 = Right(str1, 2)
+            char4 = Right(str1, 1)
+
+            Console.Write(char1 & char2 & char3 & char4)
+        Else
+
+            Console.WriteLine(str1)
+
+        End If
+
+        Console.ReadKey()
+
+
+
+    End Sub
+
+End Module

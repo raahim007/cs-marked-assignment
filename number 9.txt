@@ -1,0 +1,26 @@
+Module Module1
+
+    Sub Main()
+        Dim str1, str2, str3, str4, str5 As String
+
+        str1 = ""
+        str2 = ""
+        str3 = ""
+        str4 = ""
+        str5 = ""
+
+        Console.WriteLine("enter string 1")
+        str1 = Console.ReadLine
+        Console.WriteLine("enter string 2")
+        str2 = Console.ReadLine
+
+        str3 = Left(str2, 1) & Mid(str1, 2, Len(str1) - 1)
+        str4 = Left(str1, 1) & Mid(str2, 2, Len(str2) - 1)
+        str5 = str3 + "" + str4
+        Console.WriteLine(str5)
+        Console.ReadLine()
+
+
+    End Sub
+
+End Module

@@ -1,0 +1,43 @@
+Module Module1
+
+    Sub Main()
+        Dim str As String
+        Dim char1 As Char
+        Dim i As Integer
+        Dim length As Integer
+        Dim alpha1 As String
+        Dim num As String
+        Dim special As String
+
+
+        str = ""
+        char1 = " "
+        i = 0
+        length = 0
+        alpha1 = ""
+        num = ""
+        special = ""
+
+
+        Console.Write(str)
+        str = LCase(str)
+        str = (length = Len(str))
+        str = Console.ReadLine
+
+        Console.WriteLine("enter string to process")
+        For i = 1 To Len(str)
+
+        Next
+        char1 = Mid(str, i, 1)
+        char1 = "a"
+        char1 = "z"
+        alpha1 = alpha1 + 1
+        If (char1 = "0" & char1 <= "9") Then
+
+        End If
+        num = num + 1
+
+        special = special + 1
+
+        Console.ReadKey()
+

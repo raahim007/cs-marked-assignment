@@ -1,0 +1,40 @@
+Module Module1
+
+    Sub Main()
+        Dim Str1, Str2 As String
+
+        Str1 = ""
+        Str2 = ""
+
+        Console.Write("enter string to process")
+        Str1 = Console.ReadLine
+        If Len(Str1) < 3 Then
+
+            Str2 = Str1
+
+        End If
+        If Len(Str1) > 3 Then
+
+        End If
+
+
+        If Right(Str1, 3) = "ing" Then
+            Str2 = Str1 & "ly"
+            Str2 = Console.ReadLine
+
+
+
+        Else
+            Str2 = Str1 & "ing"
+
+        End If
+        Console.WriteLine("your output is :" & Str1)
+
+
+        Console.ReadKey()
+
+
+
+    End Sub
+
+End Module
